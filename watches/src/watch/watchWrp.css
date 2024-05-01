@@ -1,0 +1,19 @@
+.watchWrp {
+    display: flex;
+    flex-direction: column;
+}
+
+.watchTitle {
+    align-self: center;
+}
+
+.removeButton {
+    align-self: end;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: inherit;
+    background-image: url("./circle-xmark-regular.svg");
+    cursor: pointer;
+}
